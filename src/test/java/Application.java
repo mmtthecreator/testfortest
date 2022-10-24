@@ -38,7 +38,7 @@ public class Application {
 
 
     }}
-//
+
 //    public void shouldAddProductToCart() {
 //
 //        //open site
@@ -48,3 +48,4 @@ public class Application {
 //        // check values
 //    }
 //}
+//
