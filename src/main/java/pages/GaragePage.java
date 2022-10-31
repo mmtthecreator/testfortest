@@ -14,8 +14,8 @@ public class GaragePage extends BasePage{
         addCar.click();
     }
     public void enterDataCar(){
-        $("#addCarBrand").selectOption("BMW");
-        $("#addCarModel").selectOption("3");
+        $("#addCarBrand").selectOptionContainingText("BMW");
+        $("#addCarModel").selectOptionContainingText("X5");
         $("#addCarMileage").sendKeys("250");
         $x("//button[text()='Add']").click();
         $(".alert-success").should(Condition.text("Car added"));
