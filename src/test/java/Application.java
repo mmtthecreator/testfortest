@@ -23,7 +23,7 @@ public class Application {
         garagePage.notifications.checkMessage("You have been successfully logged in");
         garagePage.openAddCarPopup();
         garagePage.enterDataCar();
-        garagePage.notifications.checkMessage("Car Added");
+        garagePage.notifications.checkMessage("Car added");
 
     }
     @Test
